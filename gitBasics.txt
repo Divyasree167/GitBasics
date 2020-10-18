@@ -1,0 +1,2 @@
+#To initialize local dir as a git repo
+ git init #when we do ls -la, we get a .git file which means it initialized.
