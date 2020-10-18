@@ -1,2 +1,13 @@
 #To initialize local dir as a git repo
- git init #when we do ls -la, we get a .git file which means it initialized.
+-git init #when we do ls -la, we get a .git file which means it initialized.
+
+#To make changes to the file gitBasics and do the first commit.
+-vi gitBasics.txt
+Make some changes to file
+-git status 
+shows the file with changes in red meaning it is untracked/ unstaged area
+-git add .
+Add all the changes in the .(current dir) to staging area
+-git commit -m "commit msg"
+-git push origin master
+  
